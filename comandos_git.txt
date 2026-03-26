@@ -1,0 +1,29 @@
+Git -> Github
+
+mkdir mi-proyecto
+cd mi-proyecto
+git init
+git add .
+git commit -m "feat: iniciar proyecto"
+git branch -M main
+git remote add origin https://github.com/USUARIO/mi-proyecto.git
+git push -u origin main
+
+Si se ha creado un repositorio con licencia, readme, gitignore:
+git pull origin main --rebase
+
+
+
+
+
+Github -> Git
+
+git clone https://github.com/USUARIO/mi-proyecto.git
+cd mi-proyecto
+
+git add .
+git commit -m "feat: agregar archivos iniciales"
+git push
+
+
+
